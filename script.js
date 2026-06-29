@@ -268,12 +268,11 @@ function handleLeadSubmit(event) {
     
     const name = document.getElementById('name').value;
     const business = document.getElementById('business').value;
-    const whatsapp = document.getElementById('whatsapp').value;
     
     const targetPhone = '5511942299178'; // Support / Sales number
     
     // Construct message
-    const message = `Olá! Meu nome é ${name}, tenho a empresa "${business}" e gostaria de saber mais informações sobre a contratação do Esira PDV. Contato: ${whatsapp}`;
+    const message = `Olá! Meu nome é ${name}, tenho a empresa "${business}" e gostaria de saber mais informações sobre a contratação do Esira PDV.`;
     const encodedMessage = encodeURIComponent(message);
     
     // Redirect to Whatsapp
