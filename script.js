@@ -285,23 +285,23 @@ function handleLeadSubmit(event) {
 const GALLERY_DATA = {
     dashboard: {
         title: 'Painel de Métricas (Dashboard)',
-        src: 'assets/dashboard_real.png'
+        src: 'https://raw.githubusercontent.com/esiratecnologia-pixel/Esirapdv/feat/gui-backend/site_promocional/assets/dashboard_real.png'
     },
     sales: {
         title: 'Frente de Caixa e Lançamento de Comandas',
-        src: 'assets/sales_real.png'
+        src: 'https://raw.githubusercontent.com/esiratecnologia-pixel/Esirapdv/feat/gui-backend/site_promocional/assets/sales_real.png'
     },
     stock: {
         title: 'Controle de Estoque e Insumos',
-        src: 'assets/stock_real.png'
+        src: 'https://raw.githubusercontent.com/esiratecnologia-pixel/Esirapdv/feat/gui-backend/site_promocional/assets/stock_real.png'
     },
     cash: {
         title: 'Fluxo e Turnos de Caixa (Abertura/Fechamento)',
-        src: 'assets/cash_real.png'
+        src: 'https://raw.githubusercontent.com/esiratecnologia-pixel/Esirapdv/feat/gui-backend/site_promocional/assets/cash_real.png'
     },
     orders: {
         title: 'Gerenciamento de Pedidos e Histórico',
-        src: 'assets/orders_real.png'
+        src: 'https://raw.githubusercontent.com/esiratecnologia-pixel/Esirapdv/feat/gui-backend/site_promocional/assets/orders_real.png'
     }
 };
 
